@@ -18,8 +18,8 @@ export class DashboardComponent implements OnInit, OnDestroy {
   /** @internal */
   public isGenreDropdown: boolean = false;
   private isSortDown: boolean = null;
-
-  private today: string = this.formatDate(new Date());
+  /** @internal */
+  public today: string = this.formatDate(new Date());
   /** @internal */
   public genreTitle: string = "Жанр";
   /** @internal */
